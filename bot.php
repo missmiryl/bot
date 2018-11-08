@@ -24,4 +24,5 @@
 	curl_setopt($ch, CURLOPT_HEADER, 1);
 	curl_setopt($ch, CURLOPT_CONNECT_ONLY, 1L);
 	$curl_scraped_page = curl_exec($ch);
+echo $curl_scraped_page;
 ?>
